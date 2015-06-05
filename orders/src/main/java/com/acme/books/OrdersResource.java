@@ -1,7 +1,7 @@
 package com.acme.books;
 
 import com.acme.books.models.Book;
-import com.acme.books.models.Order;
+import com.acme.books.models.BookOrder;
 
 import java.util.Date;
 
@@ -30,7 +30,7 @@ public class OrdersResource {
     @Path("/{id}")
     public Response getOrder(@PathParam("id") Integer id) {
 
-        Order o = em.find(Order.class, id);
+        BookOrder o = em.find(BookOrder.class, id);
 
         if (o == null)
             return Response.status(Response.Status.NOT_FOUND).build();
@@ -41,7 +41,7 @@ public class OrdersResource {
     @POST
     public Response placeOrder(Book b) {
 
-        Order o = new Order();
+        BookOrder o = new BookOrder();
         o.setBook(b);
         o.setOrderDate(new Date());
 

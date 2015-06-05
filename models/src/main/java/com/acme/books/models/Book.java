@@ -24,7 +24,7 @@ public class Book {
     private String author;
 
     @OneToMany(mappedBy="book")
-    private List<Order> orders;
+    private List<BookOrder> bookOrders;
 
     public Integer getId() {
         return id;
@@ -58,11 +58,11 @@ public class Book {
         this.author = author;
     }
 
-    public List<Order> getOrders() {
-        return orders;
+    public List<BookOrder> getBookOrders() {
+        return bookOrders;
     }
 
-    public void setOrders(List<Order> orders) {
-        this.orders = orders;
+    public void setBookOrders(List<BookOrder> bookOrders) {
+        this.bookOrders = bookOrders;
     }
 }

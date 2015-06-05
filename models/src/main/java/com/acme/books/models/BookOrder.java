@@ -13,8 +13,8 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@NamedQuery(name="Order.findAll", query="SELECT o FROM Order o")
-public class Order {
+@NamedQuery(name="BookOrder.findAll", query="SELECT o FROM BookOrder o")
+public class BookOrder {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

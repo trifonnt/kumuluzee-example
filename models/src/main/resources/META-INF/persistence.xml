@@ -8,6 +8,7 @@
     <persistence-unit name="books" transaction-type="RESOURCE_LOCAL">
 
         <class>com.acme.books.models.Book</class>
+        <class>com.acme.books.models.BookOrder</class>
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
