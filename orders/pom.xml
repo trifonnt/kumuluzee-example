@@ -12,7 +12,7 @@
     <name>Book store orders</name>
     <description>Microservice responsible for managing the book orders</description>
 
-    <artifactId>books-orders</artifactId>
+    <artifactId>orders</artifactId>
 
     <properties>
         <kumuluzee.version>1.0.0-alpha.1</kumuluzee.version>

@@ -12,7 +12,7 @@
     <name>Book store models</name>
     <description>Models for the book microservices</description>
 
-    <artifactId>books-models</artifactId>
+    <artifactId>models</artifactId>
 
     <properties>
         <kumuluzee.version>1.0.0-alpha.1</kumuluzee.version>

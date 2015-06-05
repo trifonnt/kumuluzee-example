@@ -12,7 +12,7 @@
     <name>Book store catalogue</name>
     <description>Microservice responsible for managing the books catalogue</description>
 
-    <artifactId>books-catalogue</artifactId>
+    <artifactId>catalogue</artifactId>
 
     <properties>
         <kumuluzee.version>1.0.0-alpha.1</kumuluzee.version>
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>com.acme.books</groupId>
-            <artifactId>books-models</artifactId>
+            <artifactId>models</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
