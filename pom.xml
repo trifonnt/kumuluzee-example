@@ -8,9 +8,9 @@
     <artifactId>books</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
+        <module>models</module>
         <module>catalogue</module>
         <module>orders</module>
-        <module>models</module>
     </modules>
     <packaging>pom</packaging>
     <name>Book store</name>
